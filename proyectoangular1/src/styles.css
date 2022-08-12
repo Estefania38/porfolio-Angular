@@ -1,1 +1,128 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    font-family: "Roboto", sans-serif;
+}
+.encabezado {   
+    padding: auto;
+    margin-left: 1rem;
+}
+#container {
+    width: 100%;
+    background-color: rgb(139, 134, 139);
+    padding: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#logos1 .redes {
+    float:right;
+    text-decoration: none;
+}
+.redes1, .redes2, .redes3, .redes4, .redes5, .login {
+    width: 50px ;
+    height: 50px ;
+  margin-top: 25px;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.imgbanner {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#foto-cv img {
+    float:left;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: -120px;
+    width: 300px;
+    height: auto;
+}
+section#profile {
+    height: auto;
+    float: left;
+}
+.fullName h2.editableName {
+    font-weight: bold;
+    color: #000;
+    float: left;
+}
+.editableName {
+    margin-left: 150px;
+    font-size: 45px;
+    color: rgb(93, 41, 119);
+}
+.info .editableInfo {
+    font-weight: bold;
+    margin-left: 170px;
+    font-size: 30px;
+}
+#toda-info .pfo {
+    float:right;
+    text-align: center;
+    margin-right: 60px;
+}
+.infoProf {
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(93, 41, 119);
+    text-align: center;
+    border-bottom: #000 1px solid;
+}
+.descriptions {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+section.Exp {
+    width: 100%;
+    height: auto;
+    float: left;  
+    display: inline;
+    margin-top: 50px;
+}
+.Exp1 {
+font-size: 20px;
+color:rgb(93, 41, 119);
+margin-left: 250px;
+padding-bottom: 0;
+margin-top: 10px;
+border-bottom: #000 1px;
+}
+p {
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.Exp1 img {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: -25px;
+    margin-right: 0px;
+}
+.Exp2 {
+    font-size: 20px;
+    color:rgb(93, 41, 119);
+    margin-left: 250px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    border-bottom: #000 1px;
+    display: inline;
+    position: relative;
+    display: block;
+    }
+.Exp2 img {
+        width: auto;
+        height: auto;
+        float: left;
+        margin-top: 5px;
+        margin-right: 10px;
+    }/* You can add global styles to this file, and also import other style files */
